@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="images/smokeman.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Heroo</title>
+
+    <link rel="stylesheet" href="assets/styles/homepage.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body onload="return clearFields()">
+
+    <!-- header design -->
+    <header class="header">
+        <!-- <a href="" class="logo">Prashant</a> -->
+        <img src="/images/lol.jpg" class="logo">
+
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
+
+        </nav>
+    </header>
+    <div id="errorMsg"></div>
+    <!-- home section design -->
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Prashant Sapkota</span></h1>
+            <div class="text-animate">
+                <h3>Computer Ninja</h3>
+
+            </div>
+            <p>Greetings, Tech Aficionados! I go by Prashant, your amiable local Computer Maestro. Despite my fledgling
+                tenure of 1 years in the tech realm, I've honed the skill of transforming coffee into lines of code.
+                Embark on this thrilling journey through my showcase of nerdy innovations, demonstrating that behind
+                every
+                exceptional computer guru lies a marginally sleep-deprived coder.
+
+            </p>
+
+            <div class="btn-box">
+                <a href="https://www.instagram.com/pr4shantey/" class="btn">Hire Me</a>
+                <a href="https://www.facebook.com/pr4shanteyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy" class="btn">Let's
+                    Talk</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://www.facebook.com/pr4shanteyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"><i
+                    class="bx bxl-facebook"></i></a>
+            <a href="https://twitter.com/pr4shantey"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.instagram.com/pr4shantey/"><i class="bx bxl-instagram"></i></a>
+        </div>
+
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <h2 class="heading">About<span>Me</span></h2>
+
+        <div class="about-img">
+            <img src="/images/smokeman.png" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="about-content">
+            <h3>Cyber Ninja</h3>
+            <p>Hey Techies! Prashant at your service, The Friendly Neighborhood Tech Wiz.</p>
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- education section design -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calender"></i>20010-2017</div>
+                            <h3>First Schoool- Motherland </h3>
+                            <p>Embarked on my educational journey in primary school, studied until Class 8, then left..
+                            </p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calender"></i>2010-2022</div>
+                            <h3>Passed the SEE - </h3>
+                            <p> Cleared SEE and now venturing into the exciting world of college!"</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calender"></i>2022-????</div>
+                            <h3>Studying College - Himalaya sec.School</h3>
+                            <p>Rocking college life in grades 11 & 12! Hoping for an awesome journey ahead.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="education-column">
+                <h3 class="title">Experience</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calender"></i>2022-Present</div>
+                            <h3>Learning Web Development - HTML,CSS,JS</h3>
+                            <p>Currently diving into web development. Leveling up my JS game for the future.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calender"></i>2023-Present</div>
+                            <h3>Python - Automation & Scripting</h3>
+                            <p>Python little bit pro,diving
+                                into Django for some backend magic!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calender"></i>2023-Present</div>
+                            <h3>C Language</h3>
+                            <p>Currently, my primary focus is entirely on college, where I am fully engaged in my
+                                academic pursuits.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>20%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Design <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Development <span>20%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Social Skills <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Database <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form id="contactForm" action="https://formspree.io/f/xdoqzwgn" method="post" onsubmit="return Validation()">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" name="name" id="name" placeholder="Full Name">
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="email" id="email" placeholder="Email Address">
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" name="phone" id="phone" placeholder="Mobile Number">
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" id='subject' name="subject" placeholder="Email Subject">
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea cols="30" rows="10" name="message" id="message" placeholder="Your Message"></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Prashant | All Rights Reserved |
+
+            </p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <script src="assets/scripts/homepage.js"></script>
+
+</body>
+
+</html>
