@@ -151,3 +151,17 @@ function clearFields() {
     document.getElementById('phone').value = ''
 }
 
+document.getElementById("readMoreLink").addEventListener("click", function(event){
+    event.preventDefault(); // prevent default behavior of anchor tag
+    
+    var extraText = document.getElementById("extraText");
+    var readMoreLink = document.getElementById("readMoreLink");
+    
+    if (extraText.style.display === "none") {
+      extraText.style.display = "inline"; // show hidden text
+      readMoreLink.textContent = "Hide"; // change text of read more link
+    } else {
+      extraText.style.display = "none"; // hide shown text
+      readMoreLink.textContent = "Read More"; // change text of read more link
+    }
+  });
